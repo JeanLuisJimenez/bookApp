@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import setData from './api';
+import { setData, setDataPlaces } from './api';
 import './App.css';
 
 class App extends Component {
@@ -7,7 +7,13 @@ class App extends Component {
         return (
             <div className="App">
                 <button onClick={setData}>
-                    Press me!!
+                    Set data books
+                </button>
+                {/*<button onClick={setDataEvents}>*/}
+                    {/*Set data events*/}
+                {/*</button>*/}
+                <button onClick={setDataPlaces}>
+                    Set data places
                 </button>
             </div>
         );
