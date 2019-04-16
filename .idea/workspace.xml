@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b319628-d611-467d-87a9-3485f20ac5fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/data/actividades.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/places.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/places.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,50 +22,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+            <state relative-caret-position="23">
+              <caret line="1" column="73" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/api/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1219">
+              <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#40#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/places.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1725">
-              <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/libros.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="29830" column="19" selection-start-line="29830" selection-start-column="19" selection-end-line="29830" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/places.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" selection-start-column="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/api/index.js">
+        <entry file="file://$PROJECT_DIR$/src/data/actividades.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="59" lean-forward="true" selection-start-line="3" selection-end-line="9" selection-end-column="59" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="437">
+              <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -73,9 +54,32 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>..</find>
+      <find>nombre</find>
+      <find>lubar</find>
+      <find>./assets</find>
+      <find>../</find>
+      <find>/</find>
+      <find>console.log(e)</find>
+      <find>3000</find>
+      <find>\n</find>
+      <find>&quot; [</find>
+      <find>04/28/2019</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
+      <replace>lubar</replace>
+      <replace>lugar</replace>
+      <replace>../assets</replace>
+      <replace>/</replace>
+      <replace>console.warn(e)</replace>
+      <replace>2019-04-26</replace>
+      <replace>80</replace>
+      <replace />
+      <replace>[</replace>
+      <replace>]</replace>
+      <replace>[</replace>
+      <replace>'</replace>
+      <replace>2019-05-05</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -85,11 +89,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/data/libros.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/data/places.js" />
         <option value="$PROJECT_DIR$/src/data/places.json" />
         <option value="$PROJECT_DIR$/src/data/libros.json" />
+        <option value="$PROJECT_DIR$/src/data/places.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/api/index.js" />
+        <option value="$PROJECT_DIR$/src/data/actividades.js" />
       </list>
     </option>
   </component>
@@ -97,11 +102,15 @@
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,7 +139,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -179,12 +187,20 @@
       <workItem from="1554382685074" duration="6679000" />
       <workItem from="1554595561785" duration="526000" />
       <workItem from="1554774983978" duration="545000" />
-      <workItem from="1554910690247" duration="1312000" />
+      <workItem from="1554910690247" duration="1879000" />
+      <workItem from="1554940254161" duration="5000" />
+      <workItem from="1554988164378" duration="1287000" />
+      <workItem from="1555072587304" duration="4162000" />
+      <workItem from="1555086652146" duration="8224000" />
+      <workItem from="1555164005495" duration="2719000" />
+      <workItem from="1555331842300" duration="1857000" />
+      <workItem from="1555420634971" duration="2990000" />
+      <workItem from="1555439944963" duration="1423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10440000" />
+    <option name="totallyTimeSpent" value="33674000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -221,10 +237,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/places.js">
+    <entry file="file://$PROJECT_DIR$/src/data/libros.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+        <state relative-caret-position="686090">
+          <caret line="29830" column="19" selection-start-line="29830" selection-start-column="19" selection-end-line="29830" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -235,30 +251,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/libros.json">
+    <entry file="file://$PROJECT_DIR$/src/data/actividades.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="29830" column="19" selection-start-line="29830" selection-start-column="19" selection-end-line="29830" selection-end-column="19" />
+        <state relative-caret-position="851">
+          <caret line="37" column="1" selection-end-line="37" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/places.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="32" column="74" lean-forward="true" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="23">
+          <caret line="1" column="73" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/api/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="59" lean-forward="true" selection-start-line="3" selection-end-line="9" selection-end-column="59" />
+        <state relative-caret-position="1219">
+          <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/actividades.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
         </state>
       </provider>
     </entry>

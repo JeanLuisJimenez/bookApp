@@ -1,0 +1,38 @@
+[
+ {
+   "fecha": "4/26/2019",
+   "hora": "8:00:00 AM",
+   "lugar": "Plaza España",
+   "actividad": "Espacio joven"
+ },
+ {
+   "fecha": "4/26/2019",
+   "hora": "9:00:00 AM",
+   "lugar": "Plaza España",
+   "actividad": "Gubernamentales"
+ },
+ {
+   "fecha": "4/26/2019",
+   "hora": "10:00:00 AM",
+   "lugar": "Centro IndotelRepública Digital",
+   "actividad": "Programa de Teatro"
+ },
+ {
+   "fecha": "4/26/2019",
+   "hora": "11:00:00 AM",
+   "lugar": "Centro Domínico-Alemán",
+   "actividad": "Competitividad e Innovación"
+ },
+ {
+   "fecha": "4/26/2019",
+   "hora": "12:00:00 PM",
+   "lugar": "Centro Cultural BanReservas",
+   "actividad": "Exposición Virgilio Díaz Grullón"
+ },
+ {
+   "fecha": "4/26/2019",
+   "hora": "1:00:00 PM",
+   "lugar": "Centro Cultural BanReservas",
+   "actividad": "Sala de Cine"
+ }
+]
